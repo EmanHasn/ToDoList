@@ -6,16 +6,14 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height:110vh;
     background: linear-gradient(
-        135deg,
-        #008B8B,
-        #ff6a6a
+        #dd3535, #ffffff
     );
 }
 .container{
     width: 40%;
-    min-width: 450px;
+    min-width: 331px;
     position: absolute;
     transform: translate(-50%,-50%);
     top:50%;

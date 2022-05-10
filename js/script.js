@@ -3,7 +3,10 @@ var inp = document.querySelector('input');
 var tasks = document.querySelector('#tasks')
 push.addEventListener('click' , addtask)
 function addtask(){
-    if (inp.value == "") alert("please enter a task")
+    if (inp.value == "") {
+         alert("please enter a task")
+        }
+    else{
     tasks.innerHTML += 
     `<div class="task">
     <span id ="taskname">
@@ -14,7 +17,7 @@ function addtask(){
       </button>
      </div>`;
     inp.value = "";
-    
+}  
 var deleteitem = document.querySelectorAll(".delete");
 
 for ( var i = 0; i< deleteitem.length ; i++){
